@@ -150,7 +150,7 @@ endif
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
-SELINUX_IGNORE_NEVERALLOWS := true
+#SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
